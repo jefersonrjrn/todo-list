@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: oldlace;
+}
+
+
+.todolist {
+  margin: 50px auto 0;
+  padding: 20px;
+  width: 50%;
+  max-width: 500px;
+  border: 0.5px solid;
+  border-radius: 10px;
+  
+}
+
+.todolist h1 {
+  text-align: center;
+}
+
+.todolist ul {
+  margin: 15px 10px;
+  list-style: decimal;
+}
+
+.todolist li {
+  margin-bottom: 10px;
+}
+
+.todolist li a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  padding: 2.5px;
+  float: right;
+  border: 0.5px solid rgb(163, 159, 159);
+  border-radius: 5px;
+}
+
+.todolist li a:hover {
+  background-color: rgb(253, 71, 5);
+  color: aliceblue;
+}
+
+.todolist input {
+  width: 80%;
+  background-color: white;
+}
+
+.todolist button {
+  background-color: white;
+}
+
